@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		728D73EE192A91F9003A75F9 /* NSBundle+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 728D73ED192A91F9003A75F9 /* NSBundle+Tools.m */; };
 		72D3DD84192D0F990077FB8F /* contenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D3DD83192D0F990077FB8F /* contenu.xib */; };
 		72D3DD86192DEF9D0077FB8F /* YLSliderBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D3DD85192DEF9D0077FB8F /* YLSliderBannerView.m */; };
 		72EF2A0C192A7C4400DC6450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EF2A0B192A7C4400DC6450 /* Foundation.framework */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		728D73EC192A91F9003A75F9 /* NSBundle+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Tools.h"; sourceTree = "<group>"; };
-		728D73ED192A91F9003A75F9 /* NSBundle+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Tools.m"; sourceTree = "<group>"; };
 		72D3DD83192D0F990077FB8F /* contenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = contenu.xib; sourceTree = "<group>"; };
 		72D3DD85192DEF9D0077FB8F /* YLSliderBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSliderBannerView.m; sourceTree = "<group>"; };
 		72E5A33A192B9194009D6C69 /* YLSliderBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSliderBannerView.h; sourceTree = "<group>"; };
@@ -123,8 +120,6 @@
 				72D3DD85192DEF9D0077FB8F /* YLSliderBannerView.m */,
 				72EF2A1A192A7C4400DC6450 /* AppDelegate.h */,
 				72EF2A1B192A7C4400DC6450 /* AppDelegate.m */,
-				728D73EC192A91F9003A75F9 /* NSBundle+Tools.h */,
-				728D73ED192A91F9003A75F9 /* NSBundle+Tools.m */,
 				72EF2A40192A7C8200DC6450 /* ViewController.xib */,
 				72EF2A20192A7C4400DC6450 /* ViewController.h */,
 				72EF2A21192A7C4400DC6450 /* ViewController.m */,
@@ -262,7 +257,6 @@
 				72D3DD86192DEF9D0077FB8F /* YLSliderBannerView.m in Sources */,
 				72EF2A22192A7C4400DC6450 /* ViewController.m in Sources */,
 				72EF2A1C192A7C4400DC6450 /* AppDelegate.m in Sources */,
-				728D73EE192A91F9003A75F9 /* NSBundle+Tools.m in Sources */,
 				72EF2A18192A7C4400DC6450 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

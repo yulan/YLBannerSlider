@@ -7,7 +7,6 @@
 //
 
 #import "YLSliderBannerView.h"
-#import "NSBundle+Tools.h"
 #import <QuartzCore/QuartzCore.h>
 
 

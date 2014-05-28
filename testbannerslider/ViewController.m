@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "NSBundle+Tools.h"
 #import "YLSliderBannerView.h"
 
 ///--------------------------
@@ -81,7 +80,9 @@
 -(UIView *)viewForSlider:(YLSliderBannerView*)view
 {    
     if (view == self.messengerHeaderView ) {
-        UIView *newView  = [NSBundle firstObjectInNibFromMainBundle:@"contenu"];
+        
+        NSArray *nibViews=[[NSBundle mainBundle] loadNibNamed:@"contenu" owner:self options:nil];
+        UIView *newView  =[nibViews objectAtIndex:0];
         return newView;
     }
     else return nil;
